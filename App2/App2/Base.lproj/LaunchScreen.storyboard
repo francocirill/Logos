@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgpsh_fullsize (3)" translatesAutoresizingMaskIntoConstraints="NO" id="fIG-O7-i9o">
+                                <rect key="frame" x="0.0" y="162" width="414" height="700"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="700" id="ZgX-qW-Qvo"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Logos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jdh-0L-NSO">
+                                <rect key="frame" x="146.5" y="96" width="121" height="66"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="46"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="Color5"/>
+                        <color key="tintColor" name="Color5"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fIG-O7-i9o" secondAttribute="trailing" id="HS1-Po-3ay"/>
+                            <constraint firstItem="fIG-O7-i9o" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Oah-6h-Vaz"/>
+                            <constraint firstItem="Jdh-0L-NSO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="52" id="SyJ-IW-oAB"/>
+                            <constraint firstItem="Jdh-0L-NSO" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="TuB-mb-Ldh"/>
+                            <constraint firstItem="fIG-O7-i9o" firstAttribute="top" secondItem="Jdh-0L-NSO" secondAttribute="bottom" id="Wwl-us-YK1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fIG-O7-i9o" secondAttribute="bottom" id="Zud-YH-TLu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="imgpsh_fullsize (3)" width="1668" height="2154"/>
+        <namedColor name="Color5">
+            <color red="0.2627450980392157" green="0.70980392156862748" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
